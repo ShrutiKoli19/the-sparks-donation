@@ -1,0 +1,80 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('donate2.jpg');
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+
+
+.title{
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+.title h1{
+	color:#fff;
+	font-size:70px;
+}
+
+.logo{
+	width:100px;
+	height:auto;
+
+}
+
+ul{
+	float:right;
+	list-style-type:none;
+	margin:25px;
+}
+
+ul li{
+	display:inline-block;
+	margin:20px;
+
+}
+
+ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding:5px 20px;
+	border:1px solid #fff;
+}
+
+.button{
+	text-decoration:none;
+	font-size:50px;
+	color:#ff0000;
+	border:1px solid yellow;
+	border-color:yellow;
+	position:absolute;
+	top:55%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+li a:hover{
+	background-color:yellow;
+	color:#ff0000;
+}
+
+.slogan{
+	font size:40px;
+	font-family:oswald;
+	position:absolute;
+	color:#19D3A9;
+	top:65%;
+	left:50%;
+	transform:translate(-50%, -50%);
+
+}
+
+
